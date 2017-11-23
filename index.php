@@ -33,12 +33,12 @@
                 <?php
                     include("content/OSpic.inc.php")
                 ?>
-           </div>
+            </div>
             <footer>
-         <?php
-            include("content/footer.inc.php")
-         ?>
-        </footer>
+                <?php
+                    include("content/footer.inc.php")
+                ?>
+            </footer>
         </div>
         
         
