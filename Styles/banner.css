@@ -1,7 +1,9 @@
 .banner
 {
     background-image: url(../img/mainbanner.png);
-    height: 25%;
+    height: 100%;
+    max-height: 25%;
+    min-height: 200px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
