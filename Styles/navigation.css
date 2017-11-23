@@ -50,7 +50,7 @@
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .cart:hover .btn {
-    background-color: #3e8e41;
+    background-color: #111;
     float: right;
 }
 
@@ -92,5 +92,5 @@
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .btn {
-    background-color: #3e8e41;
+    background-color: #111;
 }
