@@ -8,14 +8,14 @@
 
 <div class="cart">
   <button class="btn">
-    <input type="image" src="/img/carticon.png" width=40 height=40>
+    <input type="image" src="img/carticon.png" width=40 height=40>
   </button>
 </div>
 
 
 <div class="dropdown">
   <button class="btn">
-    <input type="image" src="/img/iconman.png" width=30 height=30>
+    <input type="image" src="img/iconman.png" width=30 height=30>
   </button>
   <div class="dropdown-content">
     <a href="#">Link 1</a>

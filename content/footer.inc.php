@@ -9,7 +9,7 @@
 </div>
 
 <div class="center footertext">
-     <img src="/img/echotm.png" style="width:200px">
+     <img src="img/echotm.png" style="width:200px">
 </div>
 
 <div class="right footertext">
