@@ -1,0 +1,28 @@
+
+.left{
+   float: left;
+   padding-left: 30px;
+   
+}
+
+.right{
+   float: right;
+   padding-left: 30px;
+   
+}
+   
+.footertext{
+    line-height:1.6em;
+    font-size: 15px;
+    font-family: brandon-grot-w01-light, sans-serif;
+    text-align: center;
+    width: 324px;
+    top: 112px;
+    
+}
+
+.footertext a{
+    display: block;
+    text-decoration: none;
+    color:#494949;
+}
