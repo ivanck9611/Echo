@@ -1,2 +1,4 @@
-<link type="text/css" rel="stylesheet" href="/style/onsale.css  " />
-<p> ON SALE </p>
+<link rel="stylesheet" type="text/css" href="Styles/onsale.css">
+<?php
+    echo"<p>ON SALE</p>";
+?>

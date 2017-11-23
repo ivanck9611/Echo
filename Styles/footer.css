@@ -1,16 +1,17 @@
-
 .left{
    float: left;
    padding-left: 30px;
-   
 }
 
 .right{
    float: right;
    padding-left: 30px;
-   
 }
-   
+
+.center{
+    padding-left: 30px;
+}
+
 .footertext{
     line-height:1.6em;
     font-size: 15px;

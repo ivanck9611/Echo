@@ -1,4 +1,4 @@
-<link type="text/css" rel="stylesheet" href="/style/footer.css" />
+<link type="text/css" rel="stylesheet" href="/Styles/footer.css" />
 <hr>
 
 <div class="left footertext"> 
@@ -6,6 +6,10 @@
      <a href="index.php">Shop Collection</a>
      <a href="index.php">Our Story</a>
      
+</div>
+
+<div class="center footertext">
+     <img src="/img/echotm.png" style="width:200px">
 </div>
 
 <div class="right footertext">

@@ -1,1 +1,1 @@
-<link type="text/css" rel="stylesheet" href="/style/banner.css" />
+<link rel="stylesheet" type="text/css" href="Styles/banner.css">

@@ -2,11 +2,9 @@
 
 /* Slideshow container */
 .slidershow {
-  max-width: 70%;
-  max-height: 50%;
+  max-width: 100%;
   position: relative;
   margin: auto;
- 
 }
 
 .mySlides {
@@ -91,4 +89,4 @@
 @keyframes fade {
   from {opacity: .4} 
   to {opacity: 1}
-}   
+}
