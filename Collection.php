@@ -29,12 +29,13 @@
                     echo"<p>COLLECTION</p>";
                 ?>
             </div>
-            
-        </div>
- </body>
- <footer>
+            <footer>
          <?php
             include("content/footer.inc.php")
          ?>
-    </footer>
+        </footer>
+        </div>
+        
+ </body>
+ 
 </html>

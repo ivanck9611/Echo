@@ -29,17 +29,19 @@
                     include("content/onsale.inc.php");
                 ?>
             </div>
-            <div class="OSpic"></div>
+            <div class="OSpic">
                 <?php
                     include("content/OSpic.inc.php")
                 ?>
+           </div>
+            <footer>
+         <?php
+            include("content/footer.inc.php")
+         ?>
+        </footer>
         </div>
         
         
     </body>
-    <footer>
-         <?php
-            include("content/footer.inc.php")
-         ?>
-    </footer>
+    
 </html>
