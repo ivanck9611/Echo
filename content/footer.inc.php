@@ -8,7 +8,7 @@
      
 </div>
 
-<div class="center footertext">
+<div class="center">
      <img src="img/echotm.png" style="width:200px">
 </div>
 
