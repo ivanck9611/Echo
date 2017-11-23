@@ -1,17 +1,17 @@
 
 .left{
    float: left;
-   padding-left: 30px;
+   width: 30%
 }
 
 .right{
    float: right;
-   padding-left: 30px;
+   width: 30%
 }
 
 .center{
     text-align: center;
-    padding-left: 130px;
+    padding-left: 10%;
     display: inline-block;
 }
 

@@ -23,18 +23,19 @@
                     include("content/searchbox.inc.php");
                 ?>
             </div>
-            <div class="collection">
-                <link rel="stylesheet" type="text/css" href="Styles/collection.css">
+            
+            <div class="collect">
+                <link rel="stylesheet" type="text/css" href="Styles/collect.css">
                 <?php
                     echo"<p>COLLECTION</p>";
                 ?>
             </div>
-            
+            <footer>
+                <?php
+                    include("content/footer.inc.php")
+                ?>
+            </footer>
         </div>
  </body>
- <footer>
-         <?php
-            include("content/footer.inc.php")
-         ?>
-    </footer>
+ 
 </html>
