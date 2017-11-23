@@ -1,4 +1,4 @@
-<link type="text/css" rel="stylesheet" href="/Styles/footer.css" />
+<link type="text/css" rel="stylesheet" href="Styles/footer.css" />
 <hr>
 
 <div class="left footertext"> 
