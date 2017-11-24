@@ -1,3 +1,4 @@
+<?php include('Database/registerprocess.php'); ?>
 <html>
     <head>
         <title></title>

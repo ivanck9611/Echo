@@ -4,7 +4,7 @@
 </div>
 
 <div class="loginform">
-    <form action="loginprocess.php" method="POST">
+    <form action="loginpage.php" method="POST">
         <div class="input-group">
             <label>Username</label>
             <input type="text" name="username">

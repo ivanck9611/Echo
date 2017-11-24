@@ -7,7 +7,7 @@
 <div class="loginform">
     <form action="register.php" method="POST">
         <! -- display validation errors here -->
-        <?php include("Database/errors.inc.php")?>
+        <?php include("Database/errors.php");?>
         <div class="input-group">
             <label>Username</label>
             <input type="text" name="username">
@@ -28,7 +28,7 @@
             <button type="submit" name="register" class="btn1">Register</button>
         </div>
         <p>
-            Already a member ? <a href="loginpage.php">Sign In</a>
+            Already a member? <a href="loginpage.php">Sign In</a>
         </p>
             
             
