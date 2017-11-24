@@ -34,12 +34,7 @@
                     include("content/OSpic.inc.php")
                 ?>
             </div>
-            
-            <div class="logged">
-                <?php
-                    include("content/logged.inc.php")
-                ?>
-            </div>
+
             <footer>
                 <?php
                     include("content/footer.inc.php")
