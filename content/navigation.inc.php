@@ -18,8 +18,9 @@
     <input type="image" src="img/iconman.png" width=30 height=30>
   </button>
   <div class="dropdown-content">
-    <a href="#">Link 1</a>
-    <a href="#">Link 2</a>
-    <a href="#">Link 3</a>
+    <a href="loginpage.php">Log In</a>  
+    <a href="index.php">My Account</a>
+    <a href="index.php">My Product</a>
+    <a href="index.php">Log out</a>
   </div>
 </div>
