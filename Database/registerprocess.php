@@ -1,5 +1,6 @@
 <?php
     session_start();
+    
     $username = "";
     $email ="";
     $errors = array();
@@ -37,6 +38,42 @@
             $_SESSION['success'] = "You are now logged in";
             header('location: loggedin.php');   //redirect to 
         }
+    }  
+    
+    //log user in from login page
+    if(isset($_POST['login'])){
+        $username = mysqli_real_escape_string($db, $_POST['username']);
+        $password = mysqli_real_escape_string($db, $_POST['password']);
+        
+        //ensure that form fields are filled properly
+        if (empty($username)){
+            array_push($errors, "Username is required"); //add error to errors array
+        }
+        if (empty($password)){
+            array_push($errors, "Password is required"); //add error to errors array
+        }
+        
+        if(count($errors) == 0 ){         
+            $query = "SELECT * FROM users WHERE username = '$username' AND password = '$password";
+            $result = mysqli_query($db, $query);
+            if($result && mysqli_num_rows($result) == 1){
+                // log user in
+                $_SESSION['username'] = $username;
+                $_SESSION['success'] = "You are now logged in";
+                header('location: loggedin.php');   //redirect to
+            } else {
+                array_push($errors, "Wrong username/password combination");
+            }
+        }
+    }
+    
+    
+    
+    //logout
+    if(isset($_GET['logout'])){
+        session_destroy();
+        unset($_SESSION['username']);
+        header('location: loginpage.php');
     }
     
 ?>

@@ -21,6 +21,6 @@
     <a href="loginpage.php">Log In</a>  
     <a href="index.php">My Account</a>
     <a href="index.php">My Product</a>
-    <a href="index.php">Log out</a>
+    <a href="loggedin.php?logout='1'">Log out</a>
   </div>
 </div>

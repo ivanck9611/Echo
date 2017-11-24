@@ -5,6 +5,8 @@
 
 <div class="loginform">
     <form action="loginpage.php" method="POST">
+        <! -- display validation errors here -->      
+        <?php include('Database/errors.php');?>
         <div class="input-group">
             <label>Username</label>
             <input type="text" name="username">
