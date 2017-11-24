@@ -1,4 +1,5 @@
 <?php
+    session_start();
     $username = "";
     $email ="";
     $errors = array();
@@ -29,9 +30,12 @@
         // if there are no errors, save user to data base
         if (count($errors) == 0){
             $sql = "INSERT INTO users (username, email, password) "
-                    . "VALUES ('$username', '$email', '$password')";
+                    . "VALUES ('$username', '$email', '$password_1')";
         
             mysqli_query($db, $sql);
+            $_SESSION['username'] = $username;
+            $_SESSION['success'] = "You are now logged in";
+            header('location: index.php');
         }
     }
     
