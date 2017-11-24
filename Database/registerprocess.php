@@ -7,11 +7,11 @@
     $db = mysqli_connect('localhost', 'root', '', 'echo');
     
     //if the register button is clicked
-    if (isset($POST['register'])){
-        $username = mysql_real_escape_string($POST['username']);
-        $email = mysql_real_escape_string($POST['email']);
-        $password_1 = mysql_real_escape_string($POST['password_1']);
-        $password_2 = mysql_real_escape_string($POST['username']);
+    if (isset($_POST['register'])){
+        $username = mysql_real_escape_string($_POST['username']);
+        $email = mysql_real_escape_string($_POST['email']);
+        $password_1 = mysql_real_escape_string($_POST['password_1']);
+        $password_2 = mysql_real_escape_string($_POST['password_2']);
         
         //ensure that form fields are filled properly
         if (empty($username)){
@@ -29,7 +29,7 @@
         // if there are no errors, save user to data base
         if (count($errors) == 0){
             $sql = "INSERT INTO users (username, email, password) "
-                    . "VALUES ('$getusername', '$getemail', '$password')";
+                    . "VALUES ('$username', '$email', '$password')";
         
             mysqli_query($db, $sql);
         }
