@@ -54,15 +54,16 @@
         }
         
         if(count($errors) == 0 ){         
-            $query = "SELECT * FROM users WHERE username = '$username' AND password = '$password";
+            $query = "SELECT * FROM users WHERE username = '$username' AND password = '$password'";
             $result = mysqli_query($db, $query);
-            if($result && mysqli_num_rows($result) == 1){
+            if(mysqli_num_rows($result) == 1){
                 // log user in
                 $_SESSION['username'] = $username;
                 $_SESSION['success'] = "You are now logged in";
                 header('location: loggedin.php');   //redirect to
             } else {
                 array_push($errors, "Wrong username/password combination");
+  
             }
         }
     }
