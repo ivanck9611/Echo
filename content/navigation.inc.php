@@ -3,7 +3,7 @@
   <li><a href="index.php">Home</a></li>
   <li><a href="Collection.php">Collection</a></li>
   <li><a href="contact.php">Contact</a></li>
-  <li><a href="index.php">About</a></li>
+  <li><a href="about.php">About</a></li>
 </ul>
 
 <div class="cart">

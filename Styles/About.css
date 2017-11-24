@@ -1,0 +1,15 @@
+p.title{
+    text-align: center;
+    font-size: 30px;
+}
+
+p{
+    text-align: center;
+    font-family: Times new Roman;
+}
+
+hr.skip{
+	height: 6px;
+	background: url(http://ibrahimjabbari.com/english/images/hr-12.png) repeat-x 0 0;
+       border: 0;
+}
