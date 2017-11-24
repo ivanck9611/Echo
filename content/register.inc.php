@@ -1,12 +1,12 @@
 <link rel="stylesheet" type="text/css" href="Styles/login.css">
 
 <div class="title">
-    <p>Login Page</p>
+    <p>Register Page</p>
 </div>
 
 <div class="loginform">
     <form action="register.php" method="POST">
-        <! -- display validation errors here -->
+        <! -- display validation errors here -->      
         <?php include('Database/errors.php');?>
         <div class="input-group">
             <label>Username</label>

@@ -1,4 +1,4 @@
-<?php include('Database/registerprocess.php'); ?>
+<?php include("Database/registerprocess.php"); ?>
 <html>
     <head>
         <title></title>
@@ -23,6 +23,7 @@
                 <?php
                     include("content/register.inc.php");
                 ?>
+                
             </div>
             <footer>
                 <?php
